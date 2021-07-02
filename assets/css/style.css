@@ -1,0 +1,33 @@
+:root{
+    --Light: rgb(42, 162, 231);
+    --Yellow: rgb(241, 241, 13);
+    --Dark: #00ff55;
+}
+.body{
+    background-image: image(inspirational-proverbs.png)
+    ;
+}
+
+
+
+.Page{
+    background-color: var(--Light);
+    color: var(--Yellow);
+    font-size: 80px;
+    padding: 5%;
+}
+.h2{
+    display: block;
+    flex-direction: row;
+
+}
+
+.list{
+    color: black;
+    background-color: bisque;
+    font-size: 15 px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
